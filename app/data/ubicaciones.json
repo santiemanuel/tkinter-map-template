@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "latitud": -24.7761,
+        "longitud": -65.4093,
+        "direccion": "O'Higgins 575"
+    },
+    {
+        "id" : 2,
+        "latitud": -24.7778,
+        "longitud": -65.4114,
+        "direccion": "Balcarce 999"
+    },
+    {
+        "id" : 3,
+        "latitud": -24.7746,
+        "longitud": -65.4117,
+        "direccion": "12 de Octubre 756"
+    },
+    {
+        "id" : 4,
+        "latitud": -24.7763,
+        "longitud": -65.4096,
+        "direccion": "Bartolomé Mitre 1086"
+    },
+    {
+        "id" : 5,
+        "latitud": -24.7750,
+        "longitud": -65.4092,
+        "direccion": "12 de Octubre 581"
+    },
+    {
+        "id" : 6,
+        "latitud": -24.7758,
+        "longitud": -65.4138,
+        "direccion": "O'Higgins 903"
+    }
+]
