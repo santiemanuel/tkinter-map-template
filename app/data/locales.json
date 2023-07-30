@@ -28,5 +28,10 @@
         "nombre": "Pizza Mara",
         "imagen": "image_6.png",
         "id_ubicacion": 6
+    },
+    {
+        "nombre": "Nomada Sushi Bar",
+        "imagen": "image_7.png",
+        "id_ubicacion": "7"
     }
 ]
