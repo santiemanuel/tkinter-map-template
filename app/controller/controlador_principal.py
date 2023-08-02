@@ -27,7 +27,8 @@ class ControladorPrincipal:
     def cargar_marcadores(self):
         for ubicacion, local in zip(self.ubicaciones, self.locales):
             imagen = self.imagenes[ubicacion.id - 1]
-            marcador = self.vista.agregar_marcador_mapa(ubicacion.latitud, ubicacion.longitud, local.nombre, imagen)
+            latitud, longitud = ubicacion.coordenadas
+            marcador = self.vista.agregar_marcador_mapa(latitud, longitud, local.nombre, imagen)
             marcador.hide_image(True)
             self.marcadores.append(marcador)
 
@@ -46,9 +47,10 @@ class ControladorPrincipal:
                 break
         
         # Centra el mapa en la ubicación seleccionada
-        self.vista.mapa.set_position(ubicacion_seleccionada.latitud, ubicacion_seleccionada.longitud)
+        latitud,longitud= ubicacion_seleccionada.coordenadas
+        self.vista.mapa.set_position(latitud,longitud)
 
-        print(f"Latitud: {ubicacion_seleccionada.latitud}, Longitud: {ubicacion_seleccionada.longitud}")
+        print(f"Las coordenadas son: Latitud: {latitud}, Longitud: {longitud}")
 
 def seleccionar_ubicacion(marcador):
     if marcador.image_hidden is True:

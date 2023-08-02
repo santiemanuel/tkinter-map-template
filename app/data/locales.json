@@ -2,36 +2,79 @@
     {
         "nombre": "El Buen Gusto",
         "imagen": "image_1.png",
-        "id_ubicacion": 1
+        "id_ubicacion": 1,
+        "tipo_cocina": "Regional",
+        "ingredientes": "Papa, tomate, cebolla",
+        "disponibilidad": true,
+        "precio_max" : 100000,
+        "precio_min" : 100,
+        "id_local" : 1
+
     },
     {
         "nombre": "La Monumental",
         "imagen": "image_2.png",
-        "id_ubicacion": 2
+        "id_ubicacion": 2,
+        "tipo_cocina": "Regional e Italiana",
+        "ingredientes": "Papa, tomate, cebolla",
+        "disponibilidad": true,
+        "precio_max" : 100000,
+        "precio_min" : 100,
+        "id_local" : 2
     },
     {
         "nombre": "La 12",
         "imagen": "image_3.png",
-        "id_ubicacion": 3
+        "id_ubicacion": 3,
+        "tipo_cocina": "Regional",
+        "ingredientes": "Papa, tomate, cebolla",
+        "disponibilidad": true,
+        "precio_max" : 100000,
+        "precio_min" : 100,
+        "id_local" : 3
     },
     {
         "nombre": "Donatello",
         "imagen": "image_4.png",
-        "id_ubicacion": 4
+        "id_ubicacion": 4,
+        "tipo_cocina": "Italiana",
+        "ingredientes": "Papa, tomate, cebolla",
+        "disponibilidad": true,
+        "precio_max" : 100000,
+        "precio_min" : 100,
+        "id_local" : 4
     },
     {
         "nombre": "Lo del Negro Copa",
         "imagen": "image_5.png",
-        "id_ubicacion": 5
+        "id_ubicacion": 5,
+        "tipo_cocina": "Hotel",
+        "ingredientes": "Papa, tomate, cebolla",
+        "disponibilidad": false,
+        "precio_max" : 100000,
+        "precio_min" : 100,
+        "id_local" : 5
     },
     {
         "nombre": "Pizza Mara",
         "imagen": "image_6.png",
-        "id_ubicacion": 6
+        "id_ubicacion": 6,
+        "tipo_cocina": "Regional",
+        "ingredientes": "Papa, tomate, cebolla",
+        "disponibilidad": true,
+        "precio_max" : 100000,
+        "precio_min" : 100,
+        "id_local" : 6
     },
     {
         "nombre": "Nomada Sushi Bar",
         "imagen": "image_7.png",
-        "id_ubicacion": "7"
+        "id_ubicacion": "7",
+        "tipo_cocina": "China",
+        "ingredientes": "Papa, tomate, cebolla",
+        "disponibilidad": true,
+        "precio_max" : 100000,
+        "precio_min" : 100,
+        "id_local" : 7
     }
 ]
